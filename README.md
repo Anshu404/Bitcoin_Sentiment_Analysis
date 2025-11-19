@@ -23,34 +23,13 @@ The analysis disproves the common "Buy the Fear" advice for small traders and pr
 * **Strategy:** Unlike retail, Whales tend to **Short Sell** during these periods.
 * **Result:** This yields a massive average profit of **+$137.49 per trade**.
 
-### 3. Long vs. Short Performance
+### 3. Long vs. Short Performance Table
 | Market Sentiment | Buy (Long) Avg PnL | Sell (Short) Avg PnL | Winning Strategy |
 | :--- | :--- | :--- | :--- |
 | **Extreme Fear** | -$31.21 (Loss) | **+$39.26** | ✅ Short Sell |
 | **Fear** | +$2.39 | **+$97.11** | ✅ Short Sell |
 | **Greed** | -$15.01 (Loss) | **+$56.47** | ✅ Short Sell |
 | **Extreme Greed** | +$20.40 | **+$70.28** | ✅ Short Sell |
-
----
-
-## 🖼️ Visualizations
-
-### 1. Profitability Heatmap (Sentiment vs Trade Size)
-*Red indicates losses, Green indicates high profitability. Notice the "Dark Green" zone for Whales in Fear.*
-
-![Heatmap](Images/profitability_heatmap.png)
-
-### 2. Strategy Analysis (Long vs Short)
-*A clear comparison showing why Shorting dominates in Bearish sentiment.*
-
-![Strategy](Images/long_vs_short_strategy.png)
-
-### 3. Market Composition (Retail vs Whales)
-*Breakdown of who is trading during different market moods.*
-
-![Pie Chart](Images/market_share_pie.png)
-
-*(Note: Images are located in the `Images/` folder)*
 
 ---
 
@@ -63,3 +42,16 @@ The analysis disproves the common "Buy the Fear" advice for small traders and pr
 ---
 
 ## 📂 Project Structure
+```text
+├── Code/
+│   └── main_analysis.py       # The main Python script for analysis
+├── Data/
+│   ├── historical_data.csv    # Raw trader data
+│   └── fear_greed_index.csv   # Sentiment data
+├── Images/                    # Generated charts (Heatmaps, Strategy Graphs)
+└── Report/
+    └── analysis_report.pdf    # Final detailed report
+
+�‍💻 Author
+**Anshu Kumar**
+* [GitHub Profile](https://github.com/Anshu404)
